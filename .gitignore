@@ -1,0 +1,3 @@
+
+## exclude IntelliJ IDEA’s project configuration
+.idea/
