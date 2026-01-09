@@ -1,10 +1,8 @@
-import ProjectCard from "./components/ProjectCard.jsx";
+import ProjectsPage from "./components/ProjectsPage/ProjectsPage.jsx";
 
 function App() {
   return (
-      <div>
-          <ProjectCard />
-      </div>
+      <ProjectsPage />
   )
 }
 
