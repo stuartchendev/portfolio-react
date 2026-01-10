@@ -28,6 +28,13 @@
 - Avoids duplicated UI state and keeps data flow predictable
 
 
+> 📖KeyNote
+> 
+> **Overlay clicked close Modal:**
+> 
+> The overlay and modal are rendered as siblings rather than nested elements.
+> 
+> This structural separation ensures that clicking inside the modal does not trigger the overlay’s close behavior, avoiding accidental modal dismissal without relying on event propagation hacks.
 
 
 
